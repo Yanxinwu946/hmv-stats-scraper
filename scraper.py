@@ -114,8 +114,8 @@ class AchievementScraper:
             print(f"[*] Starting crawl from ID {start_id}")
         action_log(f"Start crawl from ID {start_id}")
 
-        max_retry = 3
-        empty_limit = 10
+        max_retry = 2
+        empty_limit = 5
         session = requests.Session()
         aid = start_id
 
